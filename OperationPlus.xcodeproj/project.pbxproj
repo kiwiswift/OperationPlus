@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B6A27FC23EC01E70033EA45 /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A27FB23EC01E70033EA45 /* Result+Extensions.swift */; };
+		6B6A27FE23EC024E0033EA45 /* ResultOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A27FD23EC024E0033EA45 /* ResultOperationTests.swift */; };
 		C9494208232C040700BCFC88 /* ConsumerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9494206232C040600BCFC88 /* ConsumerOperation.swift */; };
 		C9494209232C040700BCFC88 /* AsyncConsumerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9494207232C040600BCFC88 /* AsyncConsumerOperation.swift */; };
 		C949420B232C043E00BCFC88 /* AsyncConsumerProducerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C949420A232C043D00BCFC88 /* AsyncConsumerProducerOperation.swift */; };
@@ -66,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B6A27FB23EC01E70033EA45 /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
+		6B6A27FD23EC024E0033EA45 /* ResultOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultOperationTests.swift; sourceTree = "<group>"; };
 		C9494206232C040600BCFC88 /* ConsumerOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumerOperation.swift; sourceTree = "<group>"; };
 		C9494207232C040600BCFC88 /* AsyncConsumerOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncConsumerOperation.swift; sourceTree = "<group>"; };
 		C949420A232C043D00BCFC88 /* AsyncConsumerProducerOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncConsumerProducerOperation.swift; sourceTree = "<group>"; };
@@ -191,6 +195,7 @@
 				C9CC1D472207CA5600F7DCAE /* AsyncBlockOperationTests.swift */,
 				C9CC1D4D2207D65B00F7DCAE /* ProducerConsumerTests.swift */,
 				C9CC1D5322088CF400F7DCAE /* TestHelpers.swift */,
+				6B6A27FD23EC024E0033EA45 /* ResultOperationTests.swift */,
 			);
 			path = OperationPlusTests;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				C9B021942203D6AA006A1D9F /* OperationQueue+Emptied.swift */,
 				C9B021952203D6AA006A1D9F /* OperationQueue+Preconditions.swift */,
 				C9CC1D432206735800F7DCAE /* OperationQueue+Enqueuing.swift */,
+				6B6A27FB23EC01E70033EA45 /* Result+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -389,6 +395,7 @@
 				C9B0219F2203D6AA006A1D9F /* Operation+Dependencies.swift in Sources */,
 				C949420B232C043E00BCFC88 /* AsyncConsumerProducerOperation.swift in Sources */,
 				C949420F232C7C8700BCFC88 /* AsyncBlockProducerOperation.swift in Sources */,
+				6B6A27FC23EC01E70033EA45 /* Result+Extensions.swift in Sources */,
 				C9494209232C040700BCFC88 /* AsyncConsumerOperation.swift in Sources */,
 				C9494213232DBEE900BCFC88 /* BlockConsumerProducerOperation.swift in Sources */,
 			);
@@ -402,6 +409,7 @@
 				C9CC1D5422088CF400F7DCAE /* TestHelpers.swift in Sources */,
 				C9CC1D4E2207D65B00F7DCAE /* ProducerConsumerTests.swift in Sources */,
 				C9CC1D482207CA5600F7DCAE /* AsyncBlockOperationTests.swift in Sources */,
+				6B6A27FE23EC024E0033EA45 /* ResultOperationTests.swift in Sources */,
 				C9B0218F2203D556006A1D9F /* OperationQueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
