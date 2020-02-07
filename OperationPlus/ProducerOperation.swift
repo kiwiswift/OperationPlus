@@ -85,7 +85,7 @@ open class ProducerOperation<T> : BaseOperation {
     }
 }
 
-extension ProducerOperation where T: ResultConformance {
+public extension ProducerOperation where T: ResultConformance {
     
     func finish(with value: T.Success) {
         self.finish(with: T.init(value: value))

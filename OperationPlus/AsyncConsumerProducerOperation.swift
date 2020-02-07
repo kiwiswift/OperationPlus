@@ -14,3 +14,21 @@ open class AsyncConsumerProducerOperation<Input, Output>: ConsumerProducerOperat
         return true
     }
 }
+
+open class AsyncConsumerResultOperation<Input, Output, Failure>: AsyncConsumerProducerOperation<Result<Input, Failure>, Result<Output, Failure>> where Failure: Error {
+    
+    override open func main() {
+        guard let producerResult = producerValue, checkForCancellation() else {
+            self.finish()
+            return
+        }
+        switch producerResult {
+        case let .success(value): self.execute(with: value)
+        case let .failure(error): self.finish(with: error)
+        }
+    }
+    
+    open func execute(with value: Input) {
+        fatalError("Must be implemented")
+    }
+}

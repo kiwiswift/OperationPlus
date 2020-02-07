@@ -6,7 +6,7 @@
 //  Copyright © 2020 Chime Systems Inc. All rights reserved.
 //
 
-protocol ResultConformance {
+public protocol ResultConformance {
     associatedtype Success
     associatedtype Failure: Error
     init(value: Success)
@@ -15,12 +15,12 @@ protocol ResultConformance {
 
 extension Result: ResultConformance {
     /// Constructs a success wrapping a `value`.
-    init(value: Success) {
+    public init(value: Success) {
         self = .success(value)
     }
 
     /// Constructs a failure wrapping an `error`.
-    init(error: Failure) {
+    public init(error: Failure) {
         self = .failure(error)
     }
 }
