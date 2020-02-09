@@ -11,6 +11,8 @@ import Foundation
 open class BaseOperation : Operation {
     public enum State {
         case notStarted
+        case evaluatingConditions
+        case ready
         case running
         case finished
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B4008F923EDF1DF007EA933 /* OperationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4008F823EDF1DF007EA933 /* OperationCondition.swift */; };
 		6B6A27FC23EC01E70033EA45 /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A27FB23EC01E70033EA45 /* Result+Extensions.swift */; };
 		6B6A27FE23EC024E0033EA45 /* ResultOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6A27FD23EC024E0033EA45 /* ResultOperationTests.swift */; };
 		C9494208232C040700BCFC88 /* ConsumerOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9494206232C040600BCFC88 /* ConsumerOperation.swift */; };
@@ -68,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B4008F823EDF1DF007EA933 /* OperationCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationCondition.swift; sourceTree = "<group>"; };
 		6B6A27FB23EC01E70033EA45 /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
 		6B6A27FD23EC024E0033EA45 /* ResultOperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultOperationTests.swift; sourceTree = "<group>"; };
 		C9494206232C040600BCFC88 /* ConsumerOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumerOperation.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				C9494210232DB95000BCFC88 /* AsyncBlockConsumerProducerOperation.swift */,
 				C9B021762203D1C2006A1D9F /* OperationPlus.xcconfig */,
 				C9B021932203D677006A1D9F /* Extensions */,
+				6B4008F823EDF1DF007EA933 /* OperationCondition.swift */,
 			);
 			path = OperationPlus;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				C9B0219D2203D6AA006A1D9F /* OperationQueue+Dependencies.swift in Sources */,
 				C9B021502203D064006A1D9F /* ProducerOperation.swift in Sources */,
 				C9B0214C2203CFD1006A1D9F /* BaseOperation.swift in Sources */,
+				6B4008F923EDF1DF007EA933 /* OperationCondition.swift in Sources */,
 				C9B021522203D086006A1D9F /* AsyncProducerOperation.swift in Sources */,
 				C9494211232DB95000BCFC88 /* AsyncBlockConsumerProducerOperation.swift in Sources */,
 				C9B0219F2203D6AA006A1D9F /* Operation+Dependencies.swift in Sources */,
